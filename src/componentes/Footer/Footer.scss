@@ -1,0 +1,11 @@
+@import "../commons/variables";
+@import "../commons/mixins";
+
+.mainFooter {
+    @include display-center;
+    ul {
+        margin: 0;
+    }
+    height: $heightFooter;
+    background-color: $medium-color;
+}

@@ -1,0 +1,15 @@
+@import "../commons/variables";
+@import "../commons/mixins";
+
+
+.mainHeader {
+    h1 {
+        color: black;
+        font-weight: 500;
+        margin: 0;
+    }
+    height: $heightHeader;
+    background-color: $medium-color;
+    
+    @include display-center;
+}
